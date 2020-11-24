@@ -1,6 +1,6 @@
 # Ansible Role for Inkscape
 
-[![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-inkscape.svg)](https://travis-ci.com/alvistack/ansible-role-inkscape)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-inkscape/master)](https://gitlab.com/alvistack/ansible-role-inkscape/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-inkscape.svg)](https://github.com/alvistack/ansible-role-inkscape/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-inkscape.svg)](https://github.com/alvistack/ansible-role-inkscape/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.inkscape-blue.svg)](https://galaxy.ansible.com/alvistack/inkscape)
