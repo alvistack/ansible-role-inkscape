@@ -14,14 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_apt_key:
-  - url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x22C4850146603F3DB0ED00479DA4BD18B9A06DE3"
-    id: "22C4850146603F3DB0ED00479DA4BD18B9A06DE3"
-    state: "present"
+_apt_key: []
 
-_apt_repository:
-  - repo: "deb http://ppa.launchpad.net/inkscape.dev/stable/ubuntu hirsute main"
-    state: "present"
+_apt_repository: []
 
 _apt:
   - { state: "latest", name: "inkscape" }
