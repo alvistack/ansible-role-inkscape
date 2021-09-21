@@ -1,5 +1,7 @@
 # Ansible Role for Inkscape
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-inkscape/master)](https://gitlab.com/alvistack/ansible-role-inkscape/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-inkscape.svg)](https://github.com/alvistack/ansible-role-inkscape/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-inkscape.svg)](https://github.com/alvistack/ansible-role-inkscape/blob/master/LICENSE)
