@@ -22,7 +22,7 @@ _apt_key:
 
 _apt_repository:
   - filename: "inkscape"
-    repo: "deb http://ppa.launchpad.net/inkscape.dev/stable/ubuntu hirsute main"
+    repo: "deb http://ppa.launchpad.net/inkscape.dev/stable/ubuntu impish main"
     state: "present"
 
 _apt:
