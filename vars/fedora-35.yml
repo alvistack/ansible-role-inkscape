@@ -14,16 +14,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_apt_key:
-  - keyring: "/etc/apt/trusted.gpg.d/inkscape.gpg"
-    url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x22C4850146603F3DB0ED00479DA4BD18B9A06DE3"
-    id: "22C4850146603F3DB0ED00479DA4BD18B9A06DE3"
-    state: "present"
-
-_apt_repository:
-  - filename: "inkscape"
-    repo: "deb http://ppa.launchpad.net/inkscape.dev/stable/ubuntu impish main"
-    state: "present"
-
-_apt:
+_yum:
   - { state: "latest", name: "inkscape" }
