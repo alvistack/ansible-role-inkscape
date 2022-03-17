@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: inkscape --version
-      command: inkscape --version
+      ansible.builtin.command: inkscape --version
       register: result
       changed_when: result is not succeeded
