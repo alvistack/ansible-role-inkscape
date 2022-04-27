@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: inkscape
-      tags: inkscape
+        name: alvistack.inkscape
+      tags: alvistack.inkscape
