@@ -1,6 +1,6 @@
 # Ansible Role for Inkscape
 
-<img src="/alvistack.svg" width="75" alt="AlviStack">
+<a href="https://alvistack.com" title="AlviStack" target="_blank"><img src="/alvistack.svg" height="75" alt="AlviStack"></a>
 
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-inkscape/master)](https://gitlab.com/alvistack/ansible-role-inkscape/-/pipelines)
 [![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-inkscape.svg)](https://github.com/alvistack/ansible-role-inkscape/tags)
