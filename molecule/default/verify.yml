@@ -19,8 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: inkscape --version
+    - name: flatpak info org.inkscape.Inkscape
       ansible.builtin.command:
-        cmd: inkscape --version
+        cmd: flatpak info org.inkscape.Inkscape
       register: result
       changed_when: result is not succeeded
